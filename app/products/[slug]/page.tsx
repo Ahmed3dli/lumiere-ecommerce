@@ -5,8 +5,7 @@ import ProductCard from '@/components/product/ProductCard';
 import SlideOutCart from '@/components/cart/SlideOutCart';
 import Button from '@/components/ui/Button';
 import { mockProducts, mockVariants, mockCrossSells } from '@/seed_data';
-import { Heart, ShoppingBag, ChevronDown, Zap, Package, List, X, ShoppingCart } from 'lucide-react';
-
+import { Heart, ShoppingBag, ChevronDown, ChevronUp, Zap, Package, List, X, ShoppingCart, Star, Check, CheckCircle } from 'lucide-react';
 // --- Helper Components for PDP ---
 
 interface VariantSwatchProps {
