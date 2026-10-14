@@ -3,12 +3,14 @@ import { useCartStore } from '@/lib/store/cartStore';
 import Button from '@/components/ui/Button';
 import { ShoppingCart, Package, ChevronDown, X, DollarSign } from 'lucide-react';
 
+// ✅ Change to this:
 interface CartItem {
     id: string;
     name: string;
     price: number;
     quantity: number;
-    image: string;
+    image?: string;     // <-- Added ? so it matches cartStore
+    size?: string;
 }
 
 interface SlideOutCartProps {
