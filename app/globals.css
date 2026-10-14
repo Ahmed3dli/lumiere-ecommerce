@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Google Fonts for typography */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600;700&display=swap');
+
+/* Base styles for the body and global theme */
+body {
+  background-color: theme('colors.brand-bg');
+  color: theme('colors.text-dark');
+  font-family: 'Inter', sans-serif; /* Default body font */
+  line-height: 1.6;
+}
+
+/* Apply serif for headings globally where appropriate, though specific components will override */
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+    color: theme('colors.text-dark');
+}
