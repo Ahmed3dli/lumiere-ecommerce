@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import ProductCard from '@/components/product/ProductCard';
 import SlideOutCart from '@/components/cart/SlideOutCart';
